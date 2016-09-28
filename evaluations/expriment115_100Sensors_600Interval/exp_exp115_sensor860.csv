@@ -1,0 +1,2 @@
+sensorName,start,end,pushedData,size,sensroType,interval,dpi,max-time,failed
+exp115_sensor86,1474627938921,1474627999777,12,1536,exp115_Sensor86,600,1,60000,0

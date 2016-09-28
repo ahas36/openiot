@@ -1,0 +1,2 @@
+sensorName,firstAttempt,lastAttempt,success,failed,deltaTimeSuccess,deltaTimeFailed
+exp4_sensor1,1474600965190,1474601024604,168,0,85.69047619047619,NaN
