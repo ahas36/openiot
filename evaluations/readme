@@ -1,0 +1,12 @@
+To evaluate the performance of data injection in OpenIoT platform, 121 experiments are conducted. In these experiments, we study the impact of increasing the data ingestion rate by (a) varying the number of sensors while the injection rate is fixed; and (b) varying the injection rate while the number of sensors is fixed. First, we fixed the number of sensors to 1 and increased the number injection rate from 1 to 1000 (with the increment step set to 100). Then we repeat the experiments 10 more times by increasing the number of sensors by 10 in each iteration. This procedure is shown in the following pseudocode.
+Sensor_Number = 1
+For Sensor_Number <= 100
+	Injection_Rate = 1
+	For Injection_Rate <= 1000 
+		Run-Exoriment(Sensor_Number, Injection_Rate)
+		Injection_Rate = Injection_Rate +100
+	End For
+	Sensor_Number = Sensor_Number + 10;
+End For
+
+The results of these expermintes can be found in this folder.
